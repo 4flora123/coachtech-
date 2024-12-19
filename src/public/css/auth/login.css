@@ -1,5 +1,5 @@
 .content {
-  background-color: #F1ECE7;
+  background-color: ;
 }
 
 .login-form__inner {
@@ -9,11 +9,11 @@
 }
 
 .login-form__form {
-  padding: 64px 96px;
-  width: 40vw;
-  border: 1px solid #C5B9B0;
+  padding: 0px 0px 40px 0px;
+  width: 680px;
   border-radius: 8px;
   background-color: #FDFEFE;
+  border: 1px solid black;
 }
 
 @media screen and (max-width: 1200px) {
@@ -32,7 +32,6 @@
 
 .login-form__label {
   display: block;
-  margin-bottom: 8px;
 }
 
 .login-form__input {
@@ -41,8 +40,7 @@
   width: 100%;
   height: 48px;
   border: none;
-  background-color: #F4F4F4;
-  color: #BEB1A6;
+  border: 1px solid black;
   font-family: serif;
 }
 
@@ -52,4 +50,10 @@
 
 .login-form__btn {
   margin: 60px auto 0;
+  width: 100%;
+}
+
+.login-form__registration{
+  font-family: serif;
+  text-align: center;
 }

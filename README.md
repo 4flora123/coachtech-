@@ -1,8 +1,8 @@
-# FashionablyLate(お問い合わせフォーム)
+# coachtechフリマ (独自のフリマアプリ)
 
 ## 環境構築
 **Dockerビルド**
-1. `git clone git@github.com:estra-inc/confirmation-test-contact-form.git`
+1. `git clone git@github.com:4flora123/coachtech-.git`
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 
@@ -49,7 +49,6 @@ php artisan db:seed
 - MySQL8.0.26
 
 ## ER図
-![alt](erd.png)
 
 ## URL
 - 開発環境：http://localhost/

@@ -4,50 +4,41 @@ body {
 }
 
 body, textarea, input {
-  color: #8B7969;
+  color: black;
 }
 
 textarea::placeholder,
 input::placeholder {
-  color: #BEB1A6;
+  color: black;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 /* ヘッダー */
 .header {
-  display: grid;
+  display: flex;
   align-items: center;
-  padding: 16px 0;
-  height: 80px;
-  border: 1px solid #E0DFDE;
+  height: 82px;
   text-align: center;
   font-family: serif;
-
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  background-color: black;
+  justify-content:space-between;
 }
 
 .header__heading {
   font-weight: lighter;
-  font-size: 32px;
-
-  grid-column: 2;
 }
 
 .header__link {
-  margin: 0 auto;
-  width: 80px;
-  border: 1px solid #D9C6B5;
-  background-color: #F0F0F0;
-  color: #D9C6B5;
+  width: 100%;
+  background-color: #090909;
+  color: #FFF;
   text-decoration: none;
-
-  grid-column: 3;
+  margin-left: 10px;
+  padding: 8px 12px;
 }
 
 /* コンテンツ */
@@ -71,7 +62,7 @@ input::placeholder {
   display: block;
   padding: 8px 32px;
   border: none;
-  background-color: #82756A;
+  background-color:#FF5555;
   color: #FFF;
   font-size: 16px;
   cursor: pointer;
@@ -107,4 +98,24 @@ input::placeholder {
   border: 1px solid #8B7969;
   background-color: #8B7969;
   color: #FFF;
+}
+
+.header-buttons  {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: ;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-input {
+  width: 30%;
+  padding: 8px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
