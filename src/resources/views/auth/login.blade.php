@@ -28,8 +28,10 @@
           @enderror
         </p>
       </div>
-      <input class="login-form__btn btn" type="submit" value="ログインする">
-      <a href="/register"class="login-form__registration">会員登録はこちら</a>
+        <input class="login-form__btn btn" type="submit" value="ログインする">
+      <div class="login-form__registration">
+        <a href="/register" class="login-form__link">会員登録はこちら</a>
+      </div>
     </form>
   </div>
 </div>

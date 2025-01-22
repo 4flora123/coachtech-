@@ -52,9 +52,8 @@ input::placeholder {
 
 .content__heading {
   text-align: center;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 32px;
-  font-family: serif;
 }
 
 /* ボタン */
