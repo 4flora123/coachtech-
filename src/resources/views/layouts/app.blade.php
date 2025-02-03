@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('css/common.css')}}">
+  @vite(['resources/css/app.css', 'resources/js/app.js'])
   @yield('css')
 </head>
 
 <body>
   <div class="app">
     <header class="header">
-      <img src="free-market-app/logo.jpg" class="header__heading" alt="COACHTECH"></img>
+      <img src="{{ asset('free-market-app/logo.jpg') }}" class="header__heading" alt="COACHTECH"></img>
         @auth
         <form class="search-form" action="{{ route('home') }}" method="GET">
           <input class="search-input" type="text" name="query" placeholder="なにをお探しですか？" >

@@ -1,5 +1,6 @@
-.content {
-  background-color: #F1ECE7;
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6; /* 読みやすくするために行間を設定 */
 }
 
 .register-form__inner {
@@ -9,11 +10,8 @@
 }
 
 .register-form__form {
-  padding: 64px 0px;
   width: 680px;
-  border: 1px solid #C5B9B0;
   border-radius: 8px;
-  background-color: #FDFEFE;
 }
 
 @media screen and (max-width: 1200px) {
@@ -24,11 +22,14 @@
 
 .register-form__group {
   margin-bottom: 32px;
+
 }
 
 .register-form__label {
   display: block;
-  margin-bottom: 8px;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .register-form__input {
@@ -37,9 +38,11 @@
   width: 100%;
   height: 48px;
   border: none;
-  background-color: #F4F4F4;
   color: #BEB1A6;
   font-family: serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 59px;
 }
 
 .register-form__error-message {
@@ -48,6 +51,22 @@
 
 .register-form__btn {
   margin: 60px auto 0;
+  width: 100%;
+  height: 65px;
+  font-size: 26px;
+  border: 0px solid black;
+}
+
+.register-form__registration{
+  text-align: center;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.register-form__registration__link{
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 
@@ -64,6 +83,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  font-weight: 700;
 }
 
 .profile-image {

@@ -1,0 +1,20 @@
+{
+  "name": "coachtech-1",
+  "version": "1.0.0",
+  "description": "## 環境構築 **Dockerビルド** 1. `git clone git@github.com:4flora123/coachtech-.git` 2. DockerDesktopアプリを立ち上げる 3. `docker-compose up -d --build`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4flora123/coachtech-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4flora123/coachtech-/issues"
+  },
+  "homepage": "https://github.com/4flora123/coachtech-#readme"
+}

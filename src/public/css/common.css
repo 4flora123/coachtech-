@@ -30,6 +30,8 @@ input::placeholder {
 
 .header__heading {
   font-weight: lighter;
+  width: 370px;
+  padding: 22px 25px;
 }
 
 .header__link {
@@ -52,19 +54,23 @@ input::placeholder {
 
 .content__heading {
   text-align: center;
+  padding: 0px 0px 40px 0px;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 /* ボタン */
 .btn {
-  display: block;
+  display: inline-block;
   padding: 8px 32px;
   border: none;
   background-color:#FF5555;
   color: #FFF;
-  font-size: 16px;
+  font-size: 26px;
+  font-weight: 700;
   cursor: pointer;
+  border: 0px solid black;
+  border-radius: 5px;
 }
 
 /* ページネーション */
