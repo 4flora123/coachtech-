@@ -56,7 +56,10 @@
       </div>
 
       <input class="register-form__btn btn" type="submit" value="登録">
-      <a href="/login"class="login-form__registration">ログインはこちら</a>
+      <div class="register-form__registration">
+        <a href="/login"class="register-form__registration__link link">ログインはこちら</a>
+      </div>
+
     </form>
   </div>
 </div>

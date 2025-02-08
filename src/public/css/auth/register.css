@@ -60,14 +60,14 @@ body {
 .register-form__registration{
   text-align: center;
   width: 100%;
-  padding: 40px 0px;
+  padding: 30px 0px ;
 }
 
 .register-form__registration__link{
   display: inline-block;
-  font-weight: 400;
-  font-size: 20px;
 }
+
+
 
 
 .mb-3 {
