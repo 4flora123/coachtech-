@@ -1,6 +1,8 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap');
+
 body {
   height: 100%;
+  font-family: 'Inter', sans-serif;
 }
 
 body, textarea, input {
@@ -123,4 +125,10 @@ input::placeholder {
   background-color: #FFF;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+/*リンク*/
+.link{
+  font-weight: 400;
+  font-size: 20px;
 }
