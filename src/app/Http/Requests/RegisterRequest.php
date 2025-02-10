@@ -27,7 +27,9 @@ class RegisterRequest extends FormRequest
             'name' => 'required|string|max:100', // 必須、文字列、最大100文字
             'email' => 'required|string|email|max:255|unique:users',
             'password' => [
-                'required|string|min:8',
+                'required',
+                'string',
+                'min:8',
                 'confirmed', // password_confirmation と一致するか
                 'regex:/[A-Za-z]/', // 英字が含まれる
                 'regex:/[0-9]/', // 数字が含まれる
