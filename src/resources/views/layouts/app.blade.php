@@ -24,9 +24,19 @@
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
     @csrf
 </form>
-<a href="#" class="header__link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-    ログアウト
-</a>
+
+@if (Auth::check())
+    <!-- ログイン済みならログアウトボタン -->
+    <form method="POST" action="{{ route('logout') }}">
+        @csrf
+        <button class="header__link" type="submit">ログアウト</button>
+    </form>
+@else
+    <!-- 未ログインならログインページへ -->
+    <a href="{{ route('login') }}">
+        <button class="header__link">ログイン</button>
+    </a>
+@endif
           <a href="{{ route('mypage') }}" class="header__link">マイページ</a>
           <a href="{{ route('sell') }}" class="header__link">出品</a>
         </div>

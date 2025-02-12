@@ -24,8 +24,8 @@
                   style="display: none;">
             </div>
             <input type="file" id="profileImage" name="profile_image" accept="image/*" class="profile-image-label">
-                  <button type="button" class="btn btn-danger btn-sm mt-2"
-              onclick="document.getElementById('profileImage').click()">画像を選択する</button>
+                  <button type="button" class="btn profile-picture-btn"
+                    onclick="document.getElementById('profileImage').click()">画像を選択する</button>
           </div>
 
           <div class="register-form__group">
@@ -53,7 +53,7 @@
           </div>
 
           <div class="text-center">
-            <button type="submit" class="btn btn-danger w-50">
+            <button type="submit" class="btn profile-btn">
               {{ isset($profile) ? '更新する' : '保存する' }}
             </button>
           </div>

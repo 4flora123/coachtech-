@@ -96,6 +96,15 @@ body {
   left: 0;
 }
 
+.profile-picture-btn{
+  color: red;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid red;
+  padding: 7px 17px;
+}
+
 .profile-image-wrapper{
   width: 150px;
   height: 150px;
@@ -103,4 +112,8 @@ body {
 
 .profile-image-label{
   display: none
+}
+
+.profile-btn{
+  width: 100%;
 }
