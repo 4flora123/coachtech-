@@ -13,7 +13,8 @@
     @if(isset($profile))
         @method('PUT')
     @endif
-  <main class="container mt-5">
+
+  <main class="profile-form__inner">
     <div class="row justify-content-center">
       <div class="col-md-6">
         <form class="register-form__form" action="mypage/profile" method="POST" enctype="multipart/form-data">
